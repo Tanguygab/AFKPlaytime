@@ -1,0 +1,4 @@
+name: AFKPlaytime
+version: '${version}'
+main: io.github.tanguygab.afkplaytime.AFKPlaytime
+api-version: '1.20'
