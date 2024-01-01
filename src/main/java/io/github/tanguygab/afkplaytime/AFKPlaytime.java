@@ -13,7 +13,7 @@ import java.util.Map;
 
 public final class AFKPlaytime extends JavaPlugin implements Listener {
 
-    protected final Map<IUser, Integer> users = new HashMap<>();
+    private final Map<IUser, Integer> users = new HashMap<>();
     private final Statistic stat = Statistic.PLAY_ONE_MINUTE;
 
     @Override
