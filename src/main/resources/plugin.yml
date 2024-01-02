@@ -2,6 +2,7 @@ name: AFKPlaytime
 version: '${version}'
 main: io.github.tanguygab.afkplaytime.AFKPlaytime
 api-version: 1.13
-depend: [Essentials, PlaceholderAPI]
+depend: [Essentials]
+softdepend: [PlaceholderAPI]
 author: Tanguygab
 description: Don't count playtime when afk

@@ -29,10 +29,8 @@ public final class AFKPlaytime extends JavaPlugin implements Listener {
         essentials = (IEssentials) getServer().getPluginManager().getPlugin("Essentials");
 
         getServer().getPluginManager().registerEvents(this, this);
-        if (getServer().getPluginManager().isPluginEnabled("PlaceholderAPI")){
-            expansion = new AFKPlaytimeExpansion(this);
-            expansion.register();
-        }
+        if (getServer().getPluginManager().isPluginEnabled("PlaceholderAPI"))
+            (expansion = new AFKPlaytimeExpansion(this)).register();
     }
 
     @Override
